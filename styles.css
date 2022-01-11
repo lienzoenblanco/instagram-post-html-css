@@ -1,0 +1,41 @@
+body {
+    background-color: #EAEAEA;
+    margin: 0;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: white;
+    width: 640px;
+}
+
+.post-header {
+    display: flex;
+}
+
+.title-icon {
+    padding: 18px;
+}
+
+.title-name {
+    flex-grow: 2;
+}
+
+.title-menu {
+    margin-top: 5px;
+    padding-top: 15px;
+    margin-right: 5px;
+}
+
+.icons {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caption, .liked {
+    padding: 5px;
+}
